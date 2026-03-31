@@ -12,6 +12,7 @@
     @include('partials.header')
 
 @yield("hero")
+@yield("contenuto")
 
     @include('partials.footer')
     
