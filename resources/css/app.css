@@ -1,0 +1,14 @@
+.hero-gdr {
+    --bs-bg-image: url('../img/jumbotron.jpg');
+    background-image: var(--bs-bg-image);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 70vh;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: 50vw;
+}
